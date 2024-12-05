@@ -1,0 +1,1 @@
+Haven't coded in ages so trying to get back into it with the Advent of Code this year. Hopefully I make it further than the last couple of years! I'm uploading solutions in order to hold myself accountable so that I make my solutions actually readable and also not have the worst time complexity ever witnessed.
