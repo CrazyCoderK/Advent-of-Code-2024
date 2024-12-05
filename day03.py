@@ -18,8 +18,8 @@ def part1(data):
 
 def part2(data):
     ans2 = 0
+    # for part 2 i ended up putting a "do()" at the very start of my input just to make parsing it way easier)
     l = re.findall("(do\(\)|mul\(\d+,\d+\)|don't\(\))", data)
-    print(l)
     enabled = True
     for item in l:
         if "do(" in item:
