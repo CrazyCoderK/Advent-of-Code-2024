@@ -11,9 +11,7 @@ def part1(data):
     ans1 = 0
     for e in l:
         x = e.split(",")
-        n1 = int(x[0][4:])
-        n2 = int(x[1][:-1])
-        ans1 += n1 * n2
+        ans1 += int(x[0][4:]) * int(x[1][:-1])
     return ans1
 
 def part2(data):
