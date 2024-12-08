@@ -9,9 +9,7 @@ with open("AoC/2024\input.txt", "r") as f:
 def part1(data):
     l = re.findall("mul\(\d+,\d+\)", data)
     ans1 = 0
-    for e in l:
-        x = e.split(",")
-        ans1 += int(x[0][4:]) * int(x[1][:-1])
+    ans1 += [int(e.split(",")[0][4:]) * int(e.split(",")[1][:-1]) for e in l]
     return ans1
 
 def part2(data):
